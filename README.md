@@ -17,6 +17,7 @@ Download and Install Python required version.
 Read about virtualenv in Python. Create a virtual environment for your project.
 
       pip install virtualenv
+      
       virtualenv virtualenv_name
 Activate the environment in cmd.
 
@@ -31,7 +32,9 @@ Go the the directory where manage.py file is present. Run following commands in 
 
     python manage.py makemigrations
     
+    
     python manage.py migrate
+    
     
     python manage.py runserver
     
